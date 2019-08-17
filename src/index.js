@@ -8,13 +8,15 @@ import toggleCart from './modules/toggleCart';
 import addCart from './modules/addCart';
 import actionPage from './modules/actionPage';
 
-getData().then((data) => {
-    renderCards(data);
+// функция в скобках -- функция вызывает сама себя
+(async function(){
+    const db = await getData();
+    renderCards(db);
     renderCatalog();
     toggleCheckbox();
     toggleCart();
     addCart();
     actionPage();
-});
+}());
 
 
