@@ -1,0 +1,19 @@
+{
+  "name": "o-zone-cart",
+  "version": "1.0.0",
+  "description": "Урок Glo Academy\r Корзина на JS.",
+  "main": "index.js",
+  "dependencies": {
+    "jshint": "^2.10.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
